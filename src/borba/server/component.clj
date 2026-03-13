@@ -1,4 +1,4 @@
-(ns server.component
+(ns borba.server.component
   (:require [integrant.core :as ig]
              [io.pedestal.http :as http]
              [io.pedestal.http.route :as route]))
