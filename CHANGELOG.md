@@ -7,6 +7,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [2.0.0] - 2026-10-06
+
 ### Added
 
 - Graceful stop: the server stops listening at once and waits, up to `:stop-timeout-ms` (10 seconds by default), for the requests
@@ -41,5 +43,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 First release: the `:server/http` Integrant component, which starts and stops a Pedestal server on Jetty.
 
-[Unreleased]: https://github.com/AF2B/borba-server-component/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/AF2B/borba-server-component/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/AF2B/borba-server-component/compare/v1.0.0...v2.0.0
 [1.0.0]: https://github.com/AF2B/borba-server-component/releases/tag/v1.0.0
